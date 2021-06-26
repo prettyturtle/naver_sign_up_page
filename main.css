@@ -63,6 +63,16 @@ header h1 .logo {
   margin: auto;
   background-image: url("./images/check-off-bold.png");
 }
+.container .contents .check-all-box .check-all.checked::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background-image: url("./images/check-on-bold.png");
+}
 .container .contents .check-all-box .check-all .check-all-txt {
   line-height: 21px;
   text-decoration: underline;
@@ -108,6 +118,21 @@ header h1 .logo {
   height: 20px;
   display: block;
   background-image: url("./images/check-off-thin.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.container .contents .naver-service .check-naver-service-box .check-naver-service.checked::before,
+.privacy-service .check-privacy-service-box .check-privacy-service.checked::before,
+.location-service .check-location-service-box .check-location-service.checked::before,
+.promotion-service .check-promotion-service-box .check-promotion-service.checked::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url("./images/check-on-thin.png");
   position: absolute;
   top: 0;
   bottom: 0;
