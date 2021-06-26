@@ -160,7 +160,6 @@ header h1 .logo {
   box-sizing: border-box;
   font-size: 12px;
   border: 1px solid #dadada;
-  border-radius: 10px;
   background-color: #fff;
   padding: 12px;
   margin-top: 8px;
@@ -175,4 +174,32 @@ header h1 .logo {
   box-sizing: border-box;
   color: #666;
 
+}
+
+
+.container .contents .btn {
+  width: 50%;
+  height: 52px;
+  margin: auto 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 0;
+  cursor: pointer;
+}
+/* .container .contents .btn>span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container .contents .btn-box {
+  width: 100%;
+  display: flex;
+}
+.container .contents .cancel-btn {
+  background-color: #8e8e8e;
+}
+.container .contents .join-btn {
+  background-color: #03c75a;
 }
