@@ -1,0 +1,153 @@
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+  background-color: #f5f6f7;
+}
+header {
+  width: 768px;
+  height: 158px;
+  margin: auto;
+  position: relative;
+}
+header h1 {
+  height: 44px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+header h1 .logo {
+  display: block;
+  width: 240px;
+  height: 44px;
+  margin: auto;
+  background-image: url(./images/logo.png);
+  background-size: cover;
+}
+
+.container {
+  width: 768px;
+  height: 734px;
+  margin: auto;
+}
+.container .contents {
+  width: 460px;
+  height: inherit;
+  margin: auto;
+  position: relative;
+}
+
+.container .contents .check-all-box {
+  width: 100%;
+  height: 42px;
+}
+.container .contents .check-all-box .check-all {
+  display: block;
+  width: 90%;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+}
+.container .contents .check-all-box .check-all::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background-image: url("./images/check-off-bold.png");
+}
+.container .contents .check-all-box .check-all .check-all-txt {
+  line-height: 21px;
+  text-decoration: underline;
+  padding-left: 34px;
+  display: block;
+  color: #333;
+}
+
+
+.container .contents .naver-service,
+  .privacy-service,
+  .location-service,
+  .promotion-service {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.container .contents .naver-service .check-naver-service-box,
+.privacy-service .check-privacy-service-box,
+.location-service .check-location-service-box,
+.promotion-service .check-promotion-service-box {
+  height: 22px;
+}
+.container .contents .naver-service .check-naver-service-box .check-naver-service,
+.privacy-service .check-privacy-service-box .check-privacy-service,
+.location-service .check-location-service-box .check-location-service,
+.promotion-service .check-promotion-service-box .check-promotion-service {
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  width: 90%;
+  height: inherit;
+  padding-left: 29px;
+  position: relative;
+  cursor: pointer;
+}
+.container .contents .naver-service .check-naver-service-box .check-naver-service::before,
+.privacy-service .check-privacy-service-box .check-privacy-service::before,
+.location-service .check-location-service-box .check-location-service::before,
+.promotion-service .check-promotion-service-box .check-promotion-service::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url("./images/check-off-thin.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.container .contents .naver-service .check-naver-service-box .check-naver-service>span,
+.privacy-service .check-privacy-service-box .check-privacy-service>span {
+  color: #08a600;
+  font-size: 12px;
+  font-weight: 400;
+}
+.container .contents .location-service .check-location-service-box .check-location-service>span,
+.promotion-service .check-promotion-service-box .check-promotion-service>span {
+  color: #8e8e8e;
+  font-size: 12px;
+  font-weight: 400;
+}
+.container .contents .naver-service .naver-service-txt,
+.privacy-service .privacy-service-txt,
+.location-service .location-service-txt {
+  resize: none;
+  width: 100%;
+  height: 88px;
+  box-sizing: border-box;
+  font-size: 12px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 12px;
+  margin-top: 8px;
+  outline: none;
+  color: #666;
+}
+.container .contents .promotion-service .promotion-service-txt {
+  width: 100%;
+  height: 88px;
+  font-size: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #666;
+
+}
